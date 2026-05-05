@@ -19,12 +19,13 @@ class StartScreen extends StatelessWidget {
           ),
           const SizedBox(height: 50),
           Text(
-            'Learn Flutter the fun way!',
+            'EXAMIGO\nVotre amigo pour les examens',
             style: GoogleFonts.lato(
               color: Colors.white,
               fontSize: 20,
-              fontWeight: FontWeight(700),
+              fontWeight: FontWeight.bold,
             ),
+            textAlign: TextAlign.center,
           ),
           const SizedBox(height: 10),
           OutlinedButton.icon(
@@ -34,7 +35,7 @@ class StartScreen extends StatelessWidget {
               side: BorderSide.none,
             ),
             icon: const Icon(Icons.arrow_right_alt, size: 24),
-            label: const Text('Start Quiz'),
+            label: const Text('Commencer le Quiz'),
           ),
         ],
       ),
